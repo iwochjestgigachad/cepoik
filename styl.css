@@ -1,0 +1,138 @@
+body {
+    background-color: #FFAD00;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    padding-right: 8%;
+}
+
+.menu div {
+    padding-left: 15px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    background-color: #FFAD00;
+    padding: 12px 32px;
+    border-radius: 6px;
+}
+
+header {
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "ELSH" 0;
+}
+
+body {
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "ELSH" 0;
+}
+
+main {
+    font-size: xx-large;
+}
+
+.swieca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.swieca img {
+    width: 35%;
+    height: 400px;
+    border-radius: 20px;
+    border: 6px solid black;
+}
+
+.cartoon {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    padding-left: 8%;
+}
+
+.pisac {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+/* Dodany styl CSS dla formularza */
+form {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px auto;
+}
+
+label {
+    font-size: 14px;
+    color: #FFAD00;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+button {
+    background-color: #FFAD00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.textbox{
+    padding-right: 8%;
+}
+
+.ig{
+    padding-right: 8%;
+}
